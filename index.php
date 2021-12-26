@@ -34,7 +34,7 @@ $JS = array(
 );
  
 //Encode that JS so we can post it to the webhook
-$JSON = json_encode($JS);
+//$JSON = json_encode($JS);
 
 
 function IpToWebhook($Hook, $Content)
